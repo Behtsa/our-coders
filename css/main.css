@@ -1,0 +1,58 @@
+body {
+	margin: 0 auto;
+}
+
+h3 {
+	font-family: 'Maven Pro', sans-serif;
+	left: 21%;
+	position: relative;
+}
+
+hr {
+	width: 5%;
+	position: absolute;
+}
+
+#main_content {
+	/*border: 1px solid black;*/
+	height: 600px;
+	left: 20%;
+	margin-left: 1%;
+	margin-top: 1%;
+	position: relative;
+	width: 60%;
+}
+
+
+
+.coder {
+	-webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+	margin: 10px 10px 10px 0px;
+	/*opacity: .8;*/
+	width: 31%;
+	position: relative;
+	display: inline-block;
+}
+
+.coder:hover {
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  /*opacity: 1;*/
+	cursor: pointer;
+}
+
+img {
+	border-radius: 10px;
+  width: 100%;
+}
+
+p {
+  bottom: 18%;
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
